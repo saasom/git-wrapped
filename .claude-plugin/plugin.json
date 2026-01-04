@@ -1,0 +1,10 @@
+{
+  "name": "git-wrapped",
+  "version": "1.0.0",
+  "description": "Generate beautiful Git Wrapped visualizations - Spotify Wrapped style for your GitHub activity",
+  "author": {
+    "name": "saasom"
+  },
+  "repository": "https://github.com/saasom/git-wrapped",
+  "keywords": ["github", "visualization", "wrapped", "stats", "annual-report"]
+}
