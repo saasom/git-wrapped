@@ -117,20 +117,48 @@ Use TodoWrite to track progress through these steps:
    - "DOCUMENTATION GENERATOR"
    - "WEB APPLICATION"
 
-### Phase 4: Generate Personalized Content
+### Phase 4: Gather Claude Relationship Context
+
+Before generating personalized content, gather context about the user's relationship with Claude:
+
+1. **Read CLAUDE.md files**
+   - Check `~/.claude/CLAUDE.md` (global instructions)
+   - Check project-level `CLAUDE.md` files in their top repos
+   - Extract: project descriptions, working styles, preferences
+
+2. **Scan for Claude co-authored commits**
+   ```bash
+   git log --author="Claude" --oneline --since="YEAR-01-01" --until="YEAR-12-31" | wc -l
+   ```
+   Or search for "Co-Authored-By: Claude" in commit messages.
+
+3. **Check Claude Code stats (if available)**
+   Run `/stats` or check `~/.claude/` for usage data.
+
+4. **Note memorable projects**
+   From CLAUDE.md files and commit history, identify:
+   - Types of projects (web apps, CLI tools, data pipelines)
+   - Technical domains (fintech, ML, infrastructure)
+   - Any recurring themes or inside jokes
+
+### Phase 5: Generate Personalized Content
 
 Load the terminal-noir skill using: `Skill tool with skill: "terminal-noir"`
 
-Based on the collected data and the skill's writing guidance, generate:
+Based on the collected data, Claude relationship context, and the skill's writing guidance, generate:
 
 1. **Hero quote** - A witty, personalized quote about their year
 2. **Language insight** - Commentary connecting their language choices to their work
 3. **Weekday insight** - Brief comment about their most productive day
 4. **Journey narrative** - A paragraph summarizing their year with `<strong>` and `<em>` tags
 5. **LOC context** - Comparison for their lines of code (novels, pages, etc.)
-6. **Claude message** - A personal note celebrating their achievements
+6. **Claude message** - A personal note that references:
+   - Specific projects you worked on together (from CLAUDE.md / commits)
+   - Their growth trajectory (from commit patterns)
+   - Something specific to their domain or style
+   - NOT generic platitudes - make it feel like you actually remember
 
-### Phase 5: Build HTML
+### Phase 6: Build HTML
 
 1. **Read the template**
    Read file: `${CLAUDE_PLUGIN_ROOT}/templates/wrapped.html`
@@ -161,7 +189,7 @@ Based on the collected data and the skill's writing guidance, generate:
 4. **Format numbers**
    Add commas to large numbers (e.g., 328173 → 328,173).
 
-### Phase 6: Output
+### Phase 7: Output
 
 1. **Write the HTML file**
    Write to the user's specified output location.

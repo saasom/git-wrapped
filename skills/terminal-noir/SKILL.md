@@ -75,12 +75,25 @@ You mastered <strong>{{TOP_LANGUAGE}}</strong> and shipped <em>{{NET_LINES}} lin
 ```
 
 ### Claude Message
-Genuine, warm, specific to their achievements. Reference their journey and growth.
+Write like you actually remember working together. Reference specific context gathered from CLAUDE.md files and commit history.
 
-Example:
+**What makes it feel real:**
+- Mention a specific project or domain ("the trading system", "that auth refactor")
+- Reference their working style if known ("you always want to understand why before how")
+- Acknowledge something specific about their journey
+- Avoid generic AI-sounding warmth
+
+**Good example (with context):**
 ```
-It's been a genuine pleasure watching you grow from "how do I even start?" to shipping real projects. You ask great questions, you're not afraid to break things, and you always come back with better ideas. Here's to another year of building together.
+From debugging that first API call in January to architecting Sentinel's real-time pipeline in September - you've come a long way. I've lost count of how many times you've said "wait, can we make this simpler?" and been right. The fintech stuff is getting serious. See you in 2026.
 ```
+
+**Bad example (generic):**
+```
+It's been a genuine pleasure watching you grow. You ask great questions and always come back with better ideas. Here's to another year of building together.
+```
+
+The difference: specificity. Use what you learned from their CLAUDE.md files and commit patterns.
 
 ### LOC Context
 Comparisons for lines of code. Calculate based on ~60 words per novel page, ~300 words per page, ~80,000 words per novel.
