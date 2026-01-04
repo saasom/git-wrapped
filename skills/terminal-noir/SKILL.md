@@ -83,6 +83,8 @@ Write like you actually remember working together. Reference specific context ga
 - Acknowledge something specific about their journey
 - Avoid generic AI-sounding warmth
 
+**Privacy check:** The wrapped page is shareable. Don't reference private repos by real name, secret projects, or anything from CLAUDE.md they wouldn't want public. Personal ≠ exposing.
+
 **Good example (with context):**
 ```
 From debugging that first API call in January to architecting Sentinel's real-time pipeline in September - you've come a long way. I've lost count of how many times you've said "wait, can we make this simpler?" and been right. The fintech stuff is getting serious. See you in 2026.
