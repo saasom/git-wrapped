@@ -6,7 +6,7 @@ version: 1.0.0
 
 # Terminal Noir Design System
 
-This skill provides design guidance for the Git Wrapped visualization system. Use this when generating personalized content for the wrapped page.
+Design guidance for generating Git Wrapped pages and personalized content.
 
 ## Color Palette
 
@@ -49,7 +49,7 @@ Connect language choices to the user's work. Be specific about what each languag
 
 Examples:
 - "TypeScript became your weapon of choice for frontends, while Python powered your data pipelines."
-- "You went all-in on Go this year—performance and simplicity won out."
+- "You went all-in on Go this year. Performance and simplicity won out."
 - "A polyglot year: JavaScript for speed, Rust for safety, Python for everything else."
 
 ### Weekday Insights
@@ -83,7 +83,7 @@ It's been a genuine pleasure watching you grow from "how do I even start?" to sh
 ```
 
 ### LOC Context
-Fun comparisons for lines of code. Calculate based on ~60 words per novel page, ~300 words per page, ~80,000 words per novel.
+Comparisons for lines of code. Calculate based on ~60 words per novel page, ~300 words per page, ~80,000 words per novel.
 
 Examples:
 - "That's roughly **4 novels worth** of code"

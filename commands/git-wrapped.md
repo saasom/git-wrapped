@@ -1,5 +1,5 @@
 ---
-description: Generate your personalized Git Wrapped visualization - Spotify Wrapped style for your GitHub activity
+description: Generate your Git Wrapped visualization - Spotify Wrapped style for your GitHub activity
 argument-hint: "[year]"
 allowed-tools:
   - Bash
@@ -13,7 +13,7 @@ allowed-tools:
 
 # Git Wrapped Generator
 
-Generate a beautiful, Spotify Wrapped-style visualization of your GitHub activity for any year.
+Generate a Spotify Wrapped-style visualization of your GitHub activity for any year.
 
 ## Initial Context
 
@@ -127,8 +127,8 @@ Based on the collected data and the skill's writing guidance, generate:
 2. **Language insight** - Commentary connecting their language choices to their work
 3. **Weekday insight** - Brief comment about their most productive day
 4. **Journey narrative** - A paragraph summarizing their year with `<strong>` and `<em>` tags
-5. **LOC context** - Fun comparison for their lines of code
-6. **Claude message** - A genuine, warm note celebrating their achievements
+5. **LOC context** - Comparison for their lines of code (novels, pages, etc.)
+6. **Claude message** - A personal note celebrating their achievements
 
 ### Phase 5: Build HTML
 

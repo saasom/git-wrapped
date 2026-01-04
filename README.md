@@ -1,6 +1,6 @@
 # Git Wrapped
 
-Generate beautiful, Spotify Wrapped-style visualizations of your GitHub activity.
+Generate Spotify Wrapped-style visualizations of your GitHub activity.
 
 ![Terminal Noir Design](https://img.shields.io/badge/design-Terminal%20Noir-f5a623)
 ![Claude Code Plugin](https://img.shields.io/badge/claude--code-plugin-D97757)
@@ -94,7 +94,7 @@ During generation, you can:
 The visual design features:
 - **CRT scan lines overlay** - Retro terminal aesthetic
 - **Noise texture** - Subtle film grain effect
-- **Cormorant Garamond** - Elegant serif for headers
+- **Cormorant Garamond** - Serif font for headers
 - **JetBrains Mono** - Technical monospace for data
 - **Amber (#f5a623)** - Primary accent for highlights
 - **Teal (#00d4aa)** - Secondary accent for peaks
@@ -128,7 +128,7 @@ See a live example: [saasom.github.io/git-wrapped](https://saasom.github.io/git-
 
 ## Contributing
 
-Contributions welcome! Feel free to:
+Contributions welcome:
 - Report bugs
 - Suggest features
 - Submit pull requests
